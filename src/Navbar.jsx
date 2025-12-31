@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <div>
-        <div className="flex justify-between ">
+        <nav className="flex justify-between ">
             <div>
               <span>malakus <span>&gt;</span></span>
             </div>
@@ -13,7 +13,7 @@ function Navbar() {
               <a href="">Experiments</a>
               <a href="">Work</a>
             </div>
-        </div>
+        </nav>
 
     </div>
   )
