@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Barner() {
+function Banner() {
   return (
     <section className='py-10'>
         <p className=" pb-4 text-4xl font-extrabold text-yellow-600">
@@ -13,4 +13,4 @@ function Barner() {
   )
 }
 
-export default Barner
+export default Banner
