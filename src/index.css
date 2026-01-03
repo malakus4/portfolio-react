@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* register font */
+:root {
+  --font-space: "Space Grotesk", sans-serif;
+}
+
+/* src/index.css */
+body {
+  font-family: var(--font-space);
+}

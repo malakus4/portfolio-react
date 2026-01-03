@@ -19,7 +19,7 @@ function Experiment() {
                 </div>    
                 
                 <div className="experiment_imageDiv">
-                    <img src="./images/ben-image1.jpg" alt="" className="experiment_image"/>
+                    <img src="./src/assets/images/tower.jpg" alt="tower-left" className="experiment_image"/>
                 </div>
 
              </div> 
