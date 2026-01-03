@@ -1,4 +1,5 @@
 import React from 'react'
+import towerImg from "../../assets/images/tower.jpg";
 
 function Experiment() {
   return (
@@ -19,7 +20,9 @@ function Experiment() {
                 </div>    
                 
                 <div className="experiment_imageDiv">
-                    <img src="./src/assets/images/tower.jpg" alt="tower-left" className="experiment_image"/>
+                    <img 
+                    src={towerImg}
+                    alt="tower-image" className="experiment_image w-64"/>
                 </div>
 
              </div> 
