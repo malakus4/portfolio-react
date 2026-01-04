@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from '../components/sections/Banner.jsx'
 import AboutSection from '../components/sections/AboutSection.jsx'
-import Thoughts from '../components/sections/Thoughts.jsx'
+import ThoughtSection from '../components/sections/ThoughtSection.jsx'
 import Experiment from '../components/sections/Experiment.jsx'
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
     <div>
       <Banner />
       <AboutSection />
-      <Thoughts />
+      <ThoughtSection />
       <Experiment/>
     </div>
   )

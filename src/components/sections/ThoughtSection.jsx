@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Thoughts() {
+function ThoughtSection() {
   return (
     <section className="thoughts_container">
 
@@ -48,4 +48,4 @@ function Thoughts() {
   )
 }
 
-export default Thoughts
+export default ThoughtSection
