@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Hometest from './pages/Hometest.jsx'
 import MainLayout from './layouts/MainLayout.jsx'
 import Home from './pages/Home.jsx'
-import Experiment from './components/sections/Experiment.jsx'
+import ExperimentPreview from './components/sections/ExperimentPreview.jsx'
 
 function App() {
 
@@ -32,7 +32,7 @@ function App() {
       {/* route for Experiments page */}
       <Route element={ <MainLayout/> }>
         <Route path='/experiments' 
-          element={ <Experiment/> }/>
+          element={ <ExperimentPreview/> }/>
       </Route>
     </Routes>
       

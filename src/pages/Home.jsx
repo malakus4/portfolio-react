@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/sections/Banner.jsx'
 import AboutSection from '../components/sections/AboutSection.jsx'
 import ThoughtSection from '../components/sections/ThoughtSection.jsx'
-import Experiment from '../components/sections/Experiment.jsx'
+import Experiment from '../components/sections/ExperimentPreview.jsx'
 
 function Home() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import towerImg from "../../assets/images/tower.jpg";
 
-function Experiment() {
+function ExperimentPreview() {
   return (
     <section className="experiment_container">
         <h4 className="experiment_title title">Experiment</h4>
@@ -107,4 +107,4 @@ function Experiment() {
   )
 }
 
-export default Experiment
+export default ExperimentPreview
