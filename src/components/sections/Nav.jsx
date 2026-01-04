@@ -29,10 +29,6 @@ function Nav() {
               <NavLink to="/work" className={linkClass}>
                 Work
               </NavLink>
-
-              <NavLink to="/hometest" className={linkClass}>
-                Hometest
-              </NavLink>
               
         </ul>
     </nav>

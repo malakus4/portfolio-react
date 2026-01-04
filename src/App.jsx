@@ -1,6 +1,5 @@
 
 import { Route, Routes } from 'react-router-dom'
-import Hometest from './pages/Hometest.jsx'
 import MainLayout from './layouts/MainLayout.jsx'
 import Home from './pages/Home.jsx'
 import Thoughts from './pages/Thoughts.jsx'
