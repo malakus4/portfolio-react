@@ -15,7 +15,7 @@ function Nav() {
                 <span>malakus <span>&gt;</span></span>
               </NavLink>
 
-          <ul className="flex gap-4">
+          <ul className="flex gap-4"> 
 
               
               <NavLink to="/thoughts" end className={linkClass}>
