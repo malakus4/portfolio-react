@@ -4,6 +4,7 @@ import MainLayout from './layouts/MainLayout.jsx'
 import Home from './pages/Home.jsx'
 import Thoughts from './pages/Thoughts.jsx'
 import Experiments from './pages/Experiments.jsx'
+import Work from './pages/Work.jsx'
 
 function App() {
 
@@ -36,6 +37,10 @@ function App() {
       </Route>
 
       {/* route for Work page */}
+      <Route element={ <MainLayout/> }>
+        <Route path='/work'
+          element={ <Work/> }/>
+      </Route>
       
     </Routes>
       
