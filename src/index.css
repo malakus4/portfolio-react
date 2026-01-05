@@ -1,11 +1,55 @@
 @import "tailwindcss";
+@import "tailwindcss/utilities";
 
 /* register font */
 :root {
   --font-space: "Space Grotesk", sans-serif;
 }
 
-/* src/index.css */
+* {
+  box-sizing: border-box;
+}
+
+/* Universal body styles*/
 body {
   font-family: var(--font-space);
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
 }
+
+/* Anchor tag styles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+/* Utility class for section headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+/* Body scrollbar smooth */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global horizontal page padding (full width) */
+.container-page {
+  @apply  px-8 sm:px-10 lg:px-12 mx-auto max-w-[1200px];
+}
+
+/*  */
