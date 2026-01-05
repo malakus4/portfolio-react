@@ -6,15 +6,19 @@ import { Outlet } from 'react-router-dom'
 
 function MainLayout() {
   return (
-    <div>
+    <>
         <Header/>
-        <Nav/>
+        <Nav />
 
-        {/* Page contents renders here */}        
-        <Outlet/>
+        {/* Page contents renders here */}   
+        
+        <main className="py-8 ">
+          <Outlet />
+        </main>
+           
 
-        <Footer/>
-    </div>
+        <Footer/> 
+    </>
   )
 }
 
