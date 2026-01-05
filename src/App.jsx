@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx'
 import Thoughts from './pages/Thoughts.jsx'
 import Experiments from './pages/Experiments.jsx'
 import Work from './pages/Work.jsx'
+import NotFound from './pages/NotFound.jsx'
 
 function App() {
 
@@ -41,6 +42,10 @@ function App() {
         <Route path='/work'
           element={ <Work/> }/>
       </Route>
+
+      {/* 404 page route */}
+      <Route path="*"
+        element={ <NotFound/> }/>
       
     </Routes>
       
