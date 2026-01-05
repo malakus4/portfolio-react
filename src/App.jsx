@@ -17,35 +17,25 @@ function App() {
         {/* Main Layout route */}
 
       <Route element={ <MainLayout/> }>
-        <Route path='/' 
-          element={ <Home/> }/>
+
+          <Route path='/'  element={ <Home/> }/>
+
+          {/* route for Thoughts page */}
+          <Route path='/thoughts'   element={ <Thoughts/> }/>
+
+
+          {/* route for Experiments page */}
+          <Route path='/experiments'  element={ <Experiments/> }/>
+
+
+          {/* route for Work page */}
+          <Route path='/work'  element={ <Work/> }/>
+
       </Route>
     
+       {/* 404 page route */}
 
-
-      {/* route for Thoughts page */}
-
-      <Route element={ <MainLayout/> }>
-        <Route path='/thoughts' 
-          element={ <Thoughts/> }/>
-      </Route>
-
-
-      {/* route for Experiments page */}
-      <Route element={ <MainLayout/> }>
-        <Route path='/experiments'
-          element={ <Experiments/> }/>
-      </Route>
-
-      {/* route for Work page */}
-      <Route element={ <MainLayout/> }>
-        <Route path='/work'
-          element={ <Work/> }/>
-      </Route>
-
-      {/* 404 page route */}
-      <Route path="*"
-        element={ <NotFound/> }/>
+        <Route path="*"   element={ <NotFound/> }/>
       
     </Routes>
       
