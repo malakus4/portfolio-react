@@ -18,12 +18,12 @@ function Contact() {
     <section className="py-20">
       <div className="max-w-xl">
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">
-          Let’s work together
+          Contact Me
         </h2>
 
         <p className="text-gray-600 mb-8">
-          I’m open to frontend roles, freelance work, and collaborative projects.
-          If you have an idea or opportunity, let’s talk.
+          I'm open to frontend roles, freelance work, and collaborative projects.
+          If you have an idea or opportunity, let's talk.
       
             {/* Visible email  */}
             <span className="text-sm text-blue-500 mt-4"> Email: <span className="font-medium">{email}</span>
