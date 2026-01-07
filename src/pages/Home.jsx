@@ -5,6 +5,7 @@ import Experiment from '../components/sections/ExperimentPreview.jsx';
 import Hero from '../components/sections/Hero.jsx';
 import Skills from '../components/sections/Skills.jsx';
 import FeaturedWork from '../components/sections/FeaturedWork.jsx';
+import Contact from '../components/sections/Contact.jsx';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <AboutSection />
       <ThoughtSection />
       <Experiment/>
+      <Contact />
     </div>
   )
 }
