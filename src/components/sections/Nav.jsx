@@ -7,7 +7,9 @@ function Nav() {
       : "text-gray-600 hover:text-blue-600";
 
   return (
-    <nav className="sticky top-0 bg-base/90 backdrop-blur z-10  border-b border-gray-200/60">
+    <nav className="sticky top-0 bg-base/90
+      backdrop-blur z-10  
+      border-b border-gray-200/60">
 
       <div className="flex justify-between items-center 
       py-4 sm:py-5 lg:py-6
