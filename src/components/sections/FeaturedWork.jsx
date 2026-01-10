@@ -1,9 +1,10 @@
 import ProjectCard from "../ui/ProjectCard.jsx";
 import towerImg from "../../assets/images/tower.jpg";
+import Section from "../ui/Section.jsx";
 
 function FeaturedWork() {
   return (
-    <section className="py-16">
+    <Section>
       <h2 className="text-2xl font-bold mb-4">Featured Work</h2>
       <p className="text-gray-600 mb-8 max-w-xl">
         A selection of projects where I applied modern frontend practices,
@@ -20,7 +21,7 @@ function FeaturedWork() {
           image={towerImg}
         />
       </div>
-    </section>
+    </Section>
   );
 }
 

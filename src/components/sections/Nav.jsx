@@ -10,7 +10,6 @@ function Nav() {
     <nav className="
       flex justify-between items-center
       py-4 sm:py-5 lg:py-6
-      border-b border-gray-200
       text-sm sm:text-base lg:text-lg
     ">
       {/* Logo / Brand */}

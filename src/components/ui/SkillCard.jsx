@@ -3,7 +3,7 @@ function SkillCard({ title, description }) {
     <div className="
       rounded-lg border border-gray-200
       p-6
-      bg-white
+      bg-surface
       transition
       hover:shadow-sm
     ">
