@@ -1,4 +1,5 @@
-import React from 'react';
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <section className="py-20 sm:py-28">
@@ -18,12 +19,11 @@ function Hero() {
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">
-          <a
-            href="/work"
+          <Link to="/work"
             className="inline-flex items-center justify-center rounded-md bg-gray-400 px-6 py-3 text-sm font-medium text-white hover:bg-gray-800 transition"
           >
             View Work
-          </a>
+          </Link>
 
           <a
             href="https://github.com/malakus4"
