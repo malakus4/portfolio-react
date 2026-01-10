@@ -13,9 +13,9 @@ function Home() {
       <Hero />
       <Skills />
       <FeaturedWork/>
+      <Experiment/>
       <AboutSection />
       <ThoughtSection />
-      <Experiment/>
       <Contact />
     </div>
   )

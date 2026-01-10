@@ -1,13 +1,12 @@
-import React from 'react'
-import towerImg from "../../assets/images/tower.jpg";
+import Section from '../ui/Section';
 
 function ExperimentPreview() {
   return (
-    <section className="experiment_container">
+    <Section>
         <h4 className="experiment_title title">Experiment</h4>
 
-
-    </section>
+         <div className="more_link"><a href="">More &rarr;</a></div>
+    </Section>
   )
 }
 

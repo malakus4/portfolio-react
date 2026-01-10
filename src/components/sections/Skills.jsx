@@ -1,8 +1,9 @@
+import Section from "../ui/Section";
 import SkillCard from "../ui/SkillCard";
 
 function Skills() {
   return (
-    <section className="py-16">
+    <Section>
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
         What I Do
       </h2>
@@ -43,7 +44,7 @@ function Skills() {
           description="Vite-powered builds and live deployments using modern hosting platforms."
         />
       </div>
-    </section>
+    </Section>
   );
 }
 
