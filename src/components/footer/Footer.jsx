@@ -1,6 +1,7 @@
 import React from 'react'
 import FooterCopyright from './FooterCopyright'
 import FooterAbout from './FooterAbout'
+import FooterLinks from './FooterLinks'
 
 function Footer() {
   return (
@@ -11,9 +12,10 @@ function Footer() {
         <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
 
           {/* About + Links */}
-          <div className="flex flex-col gap-8 lg:w-1/2">
+          <div className="flex flex-row gap-8 justify-around lg:w-1/2">
             <FooterAbout/>
-            
+            <FooterLinks/>
+
           
           
           
