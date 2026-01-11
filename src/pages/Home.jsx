@@ -1,11 +1,9 @@
 import React from 'react';
-import AboutSection from '../components/sections/AboutSection.jsx';
 import ThoughtSection from '../components/sections/ThoughtSection.jsx';
 import Experiment from '../components/sections/ExperimentPreview.jsx';
 import Hero from '../components/sections/Hero.jsx';
 import Skills from '../components/sections/Skills.jsx';
 import FeaturedWork from '../components/sections/FeaturedWork.jsx';
-import Contact from '../components/sections/Contact.jsx';
 
 function Home() {
   return (
@@ -14,9 +12,7 @@ function Home() {
       <Skills />
       <FeaturedWork/>
       <Experiment/>
-      <AboutSection />
       <ThoughtSection />
-      <Contact />
     </div>
   )
 }
