@@ -9,7 +9,7 @@ function FooterContactCard() {
       {/* Header (clickable only on mobile) */}
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between font-semibold text-gray-900 lg:cursor-default"
+        className="flex w-full items-center justify-between text-sm font-semibold text-gray-900 lg:cursor-default"
       >
         Contact
       </button>
@@ -18,6 +18,7 @@ function FooterContactCard() {
       <div
         className={`
           mt-4 space-y-2 text-sm text-gray-600
+          transition-all duration-300
           ${open ? "block" : "hidden"}
           lg:block
         `}

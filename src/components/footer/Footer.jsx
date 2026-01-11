@@ -3,38 +3,33 @@ import FooterCopyright from './FooterCopyright'
 import FooterAbout from './FooterAbout'
 import FooterLinks from './FooterLinks'
 import FooterContactCard from './FooterContactCard'
+import FooterConnectCard from './FooterConnectCard'
 
 function Footer() {
   return (
 
-    <footer className="mt-24 bg-base">
-      <div className="container-page p-16">
-        {/* Top row */}
-        <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
+    <footer className="mt-24 bg-base border-t border-gray-200">
+
+      {/* Footer 4 coloums */}
+      <div className=" py-16">
+
+        
 
           {/* About + Links */}
-          <div className="flex flex-row gap-8 justify-around lg:w-1/2">
-            <FooterAbout/>
-            <FooterLinks/>    
-          
-          </div>
-
-          {/* Expandable cards */}
-          <div className="flex flex-col gap-6 lg:w-1/2 lg:flex-row">
-            <FooterContactCard/>
-
+          <div className="grid gap-8 lg:grid-cols-4">
             
+            
+            
+            
+            <FooterAbout/>
+            <FooterLinks/>   
+            
+      
+            <FooterContactCard/>
+            <FooterConnectCard/>            
           </div>
+        </div>      
 
-
-
-        </div>
-
-
-
-
-
-      </div>
       <FooterCopyright/>
     </footer>
   )
