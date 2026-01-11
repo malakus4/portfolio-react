@@ -12,7 +12,7 @@ function Nav() {
       border-b border-gray-200/60">
 
       <div className="flex justify-between items-center 
-      py-4 sm:py-5 lg:py-6
+      py-5 sm:py-5 lg:py-6
       text-sm sm:text-base lg:text-lg">
 
 
