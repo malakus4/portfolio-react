@@ -12,7 +12,7 @@ function MainLayout() {
 
         {/* Page contents renders here */}   
         
-        <main className="bg-surface mx-2.5">
+        <main className="bg-surface mx-4">
           <Outlet />
         </main>
            
