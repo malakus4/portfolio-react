@@ -7,7 +7,7 @@ import FeaturedWork from '../components/sections/FeaturedWork.jsx';
 
 function Home() {
   return (
-    <div>
+    <div className='container-page  '>
       <Hero />
       <Skills />
       <FeaturedWork/>
