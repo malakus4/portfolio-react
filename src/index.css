@@ -47,14 +47,16 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Global horizontal page padding (full width) */
+/* Global horizontal layout padding */
 .container-page {
   @apply  px-8 sm:px-10 lg:px-12 mx-auto max-w-[1200px];
 }
 
 @layer utilities {
   .bg-base {
-    @apply bg-[#fdfbf7];
+    /* @apply bg-[#fdfbf7]; */
+    /* @apply bg-[#f5d189];  */
+    /* @apply bg-[#f5efe6]; */
   }
 
   .bg-surface {

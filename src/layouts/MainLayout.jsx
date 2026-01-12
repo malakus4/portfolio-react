@@ -12,7 +12,7 @@ function MainLayout() {
 
         {/* Page contents renders here */}   
         
-        <main className="py-8 ">
+        <main className="bg-surface container-page">
           <Outlet />
         </main>
            
