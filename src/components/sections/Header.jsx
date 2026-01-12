@@ -3,7 +3,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <header className="py-4 text-sm text-gray-500">
+        <header className="bg-surface px-6 py-4 text-sm text-center text-gray-500">
             
             {/* <p className="text-sm sm:text-base          lg:text-lg font-medium">Malak Udom - Frontend Developer </p> */}
 
