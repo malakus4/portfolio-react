@@ -7,12 +7,13 @@ function FooterContactCard() {
     <div className="w-full rounded-xl bg-surface p-5 shadow-sm">
       
       {/* Header (clickable only on mobile) */}
-      <button
+      <div
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between text-sm font-semibold text-gray-900 lg:cursor-default"
+        className="flex w-full items-center justify-between 
+        section-subtitle lg:cursor-default"
       >
         Contact
-      </button>
+      </div>
 
       {/* Content */}
       <div

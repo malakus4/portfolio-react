@@ -8,7 +8,7 @@ function ProjectCard({ title, description, tech, live, github, image }) {
       />
 
       <div className="p-5 space-y-3">
-        <h3 className="text-lg font-semibold">{title}</h3>
+        <h3 className="section-subtitle">{title}</h3>
         <p className="text-sm text-gray-600">{description}</p>
 
         <div className="flex flex-wrap gap-2 text-xs text-blue-600">

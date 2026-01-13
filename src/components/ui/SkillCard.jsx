@@ -7,7 +7,7 @@ function SkillCard({ title, description }) {
       transition
       hover:shadow-sm
     ">
-      <h3 className="text-lg font-semibold text-gray-900">
+      <h3 className="section-subtitle">
         {title}
       </h3>
 

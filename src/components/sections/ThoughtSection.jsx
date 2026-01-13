@@ -4,7 +4,7 @@ function ThoughtSection() {
   return (
     <section className="thoughts_container">
 
-            <h4 className="thoughts_title title">Recent Thoughts</h4>
+            <h4 className="section-title">Recent Thoughts</h4>
 
            
 

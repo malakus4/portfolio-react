@@ -4,7 +4,7 @@ import SkillCard from "../ui/SkillCard";
 function Skills() {
   return (
     <Section>
-      <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+      <h2 className="section-title">
         What I Do
       </h2>
 
