@@ -76,11 +76,11 @@ html {
   }
 
   .footer-title {
-    @apply text-lg sm:text-xl font-semibold text-gray-900;
+    @apply text-xl sm:text-xl font-semibold text-gray-900;
   }
 
   .footer-text {
-     @apply text-sm sm:text-base text-gray-600 leading-relaxed;  
+     @apply text-lg sm:text-xl text-gray-700 leading-relaxed;  
   }
 
 
