@@ -9,7 +9,7 @@ function FooterConnectCard() {
       {/* Header */}
       <div
         onClick={() => setOpen(!open)}
-        className="text-sm flex w-full items-center justify-between section-subtitle lg:cursor-default"
+        className="footer-title flex w-full items-center justify-between lg:cursor-default"
       >
         Let's Connect
       </div>
@@ -17,7 +17,7 @@ function FooterConnectCard() {
       {/* Content */}
       <div
         className={`
-          mt-4 flex flex-wrap gap-4 text-sm text-gray-600
+          mt-4 flex flex-wrap gap-4 footer-text
           transition-all duration-300
           ${open ? "flex" : "hidden"}
           lg:flex

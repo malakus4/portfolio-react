@@ -8,15 +8,12 @@ function Hero() {
           Frontend Developer
         </h1>
 
-        <p className="mt-6 text-base sm:text-lg text-gray-600">
+        <p className="body-text mt-6 ">
           I build clean, responsive, and scalable web interfaces using React,
           Vite, and Tailwind CSS.
         </p>
 
-        <p className="mt-4 text-sm sm:text-base text-gray-500">
-          Focused on layout systems, reusable components, and real-world
-          frontend workflows.
-        </p>
+        
 
         <div className="mt-8 flex flex-wrap gap-4">
           <Link to="/work"
