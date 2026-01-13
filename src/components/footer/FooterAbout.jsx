@@ -5,8 +5,9 @@ function FooterAbout() {
       <p className="mt-3 max-w-md footer-text">
         I'm a frontend developer focused on building clean, responsive,
         and maintainable web interfaces using modern tools like React
-        and Tailwind CSS.
+        and Tailwind CSS.  
       </p>
+      <p className="max-w-md footer-text">I enjoy turning abstract problems into well-structured, user-friendly solutions.</p>
     </div>
   );
 }
