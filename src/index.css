@@ -59,6 +59,11 @@ html {
     /* @apply bg-[#f5d189];  */
   }
 
+  .bg-base-200 {
+    @apply bg-[#f2eee3];
+
+  }
+
   .bg-surface {
     @apply bg-white
   }  
