@@ -54,7 +54,7 @@ html {
 
 @layer utilities {
   .bg-base {
-    /* @apply bg-[#fdfbf7]; */
+    @apply bg-[#fdfbf7];
     /* @apply bg-[#f5efe6]; */
     /* @apply bg-[#f5d189];  */
   }
