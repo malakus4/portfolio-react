@@ -8,7 +8,7 @@ import FooterConnectCard from './FooterConnectCard'
 function Footer() {
   return (
 
-    <footer className="bg-base p-8">
+    <footer className=" p-8">
 
       {/* Footer 4 coloums */}
       <div className=" py-8">
