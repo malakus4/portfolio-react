@@ -8,7 +8,7 @@ function Skills() {
         What I Do
       </h2>
 
-      <p className="mt-4 max-w-2xl text-gray-600">
+      <p className="mt-4 max-w-2xl text-base sm:text-lg text-gray-700 leading-relaxed">
         I focus on building frontend systems that are maintainable,
         responsive, and production-ready.
       </p>

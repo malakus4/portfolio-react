@@ -72,7 +72,7 @@ html {
     @apply text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900;
   }
 
-  .section-subtitl {
+  .section-subtitle {
     @apply text-lg sm:text-xl font-semibold text-gray-900;
   }
 
