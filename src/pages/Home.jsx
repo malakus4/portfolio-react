@@ -11,8 +11,8 @@ function Home() {
       <Hero />
       <Skills />
       <FeaturedWork/>
-      <Experiment/>
-      <ThoughtSection />
+      {/* <Experiment/> */}
+      {/* <ThoughtSection /> */}
     </div>
   )
 }
