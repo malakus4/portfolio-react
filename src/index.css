@@ -85,7 +85,7 @@ html {
   }
 
   .footer-text {
-     @apply text-lg sm:text-xl text-gray-700 leading-relaxed;  
+     @apply text-base sm:text-lg text-gray-700 leading-relaxed;  
   }
 
 
