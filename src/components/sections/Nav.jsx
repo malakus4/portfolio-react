@@ -8,7 +8,7 @@ function Nav() {
 
   return (
     <nav className="sticky top-0 bg-base/90
-      backdrop-blur z-10 px-8
+      backdrop-blur z-10 container-page
       border-b border-gray-200/60">
 
       <div className="flex justify-between items-center 
