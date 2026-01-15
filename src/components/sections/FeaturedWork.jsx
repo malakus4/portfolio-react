@@ -6,7 +6,7 @@ function FeaturedWork() {
   return (
     <Section>
       <h2 className="section-title">Featured Work</h2>
-      <p className="text-gray-600 mb-8 max-w-xl">
+      <p className="mt-4 mb-8 max-w-2xl text-base sm:text-lg text-gray-700 leading-relaxed">
         A selection of projects where I applied modern frontend practices,
         clean architecture, and real-world problem solving.
       </p>
