@@ -49,7 +49,7 @@ html {
 
 /* Global horizontal layout padding */
 .container-page {
-  @apply  px-4 sm:px-10 lg:px-12 mx-auto max-w-[1350px];
+  @apply  px-8 sm:px-10 lg:px-12 mx-auto max-w-[1350px];
 }
 
 @layer utilities {
@@ -72,7 +72,7 @@ html {
     @apply text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900;
   }
 
-  .section-subtitl {
+  .section-subtitle {
     @apply text-lg sm:text-xl font-semibold text-gray-900;
   }
 
@@ -85,7 +85,7 @@ html {
   }
 
   .footer-text {
-     @apply text-lg sm:text-xl text-gray-700 leading-relaxed;  
+     @apply text-base sm:text-lg text-gray-700 leading-relaxed;  
   }
 
 
