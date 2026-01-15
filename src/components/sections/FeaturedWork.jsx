@@ -1,5 +1,5 @@
 import ProjectCard from "../ui/ProjectCard.jsx";
-import towerImg from "../../assets/images/portfolio.jpg";
+import towerImg from "../../assets/images/portfolio.PNG";
 import Section from "../ui/Section.jsx";
 
 function FeaturedWork() {
