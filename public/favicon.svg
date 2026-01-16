@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="M greater than logo">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"></stop>
+      <stop offset="100%" stop-color="#1e40af"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- M -->
+  <polygon fill="#111111" points="
+      32,224
+      32,32
+      80,32
+      128,144
+      176,32
+      224,32
+      224,224
+      176,224
+      176,96
+      128,192
+      80,96
+      80,224
+    "></polygon>
+
+  <!-- > -->
+  <polygon fill="url(#grad)" points="
+      160,64
+      224,128
+      160,192
+      160,152
+      192,128
+      160,104
+    "></polygon>
+</svg>
