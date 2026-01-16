@@ -1,4 +1,4 @@
-import profileImg from "../../assets/images/profile-74.webp";
+import profileImg from "/profile-74.webp";
 
 function FooterAbout() {
   return (
