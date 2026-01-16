@@ -20,14 +20,6 @@ body {
 
 }
 
-/* Anchor tag styles */
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-
-
 /* Utility class for section headings */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
