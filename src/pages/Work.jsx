@@ -1,4 +1,6 @@
 import React from 'react'
+import WorkCard from "../components/work/WorkCard";
+import { workData } from "../components/work/workData";
 
 function Work() {
 
@@ -28,10 +30,26 @@ function Work() {
           {JSON.stringify(breadcrumbSchema)}
       </script>
 
-    <div className='container-page py-10'>
-      
-      <div>This is work page</div>
-     </div>
+    <section className="container-page py-16">
+      <h1 className="section-title">My Work</h1>
+      <p className="mt-4 max-w-2xl body-text">
+        Selected projects and collaborations showcasing real-world
+        frontend development experience.
+      </p>
+
+      <div
+        className="
+          mt-12
+          grid gap-8
+          sm:grid-cols-2
+          lg:grid-cols-3
+        "
+      >
+        {workData.map((project) => (
+          <WorkCard key={project.slug} project={project} />
+        ))}
+      </div>
+    </section>
 
     </>
 
