@@ -15,7 +15,7 @@ function WorkCard({ project }) {
         className="
           flex items-center justify-center
           h-32
-          bg-base
+          bg-gray-100
           border-b border-gray-200
         "
       >
