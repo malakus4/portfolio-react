@@ -30,6 +30,7 @@ function App() {
 
           {/* route for Work page */}
           <Route path='/work'  element={ <Work/> }/>
+          <Route path='/work/:slug'  element={ <workDetail/> }/>
 
       </Route>
     
