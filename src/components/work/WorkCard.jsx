@@ -23,7 +23,7 @@ function WorkCard({ project }) {
           <img
             src={project.logo}
             alt={project.name}
-            className="h-10 object-contain"
+            className="h-10 max-w-[200px] w-auto object-contain"
           />
         ) : (
           <span className="text-sm font-medium text-gray-600">

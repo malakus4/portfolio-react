@@ -2,7 +2,7 @@ export const workData = [
   {
     slug: "emdeelink",
     name: "EMDEELINK Limited",
-    logo: "/emdeelink-logo.svg",
+    logo: "/work/emdeelink-logo-svg.svg",
     live: "https://emdeelink.com",
     tech: ["React", "Tailwind CSS", "JavaScript"],
   },
