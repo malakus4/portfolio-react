@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useParams, Navigate } from "react-router-dom"; // Cleaned up imports
+import { Link, useParams, Navigate } from "react-router-dom";
 import { workProjects } from "../data/workProjects";
 
 function WorkDetail() {
@@ -26,7 +26,12 @@ function WorkDetail() {
   };
 
   return (
-    <section className="space-y-24 py-16">
+    <section className="cont space-y-24 py-16">
+      
+      <h1 className="text-center pb-14 text-xl  font-bold text-gray-900">
+            {project.title}
+          </h1>
+
       {/* Slider */}
       <div className="relative max-w-5xl mx-auto px-4">
         <div className="overflow-hidden rounded-xl border bg-white">
@@ -74,12 +79,7 @@ function WorkDetail() {
 
       {/* Main content */}
       <div className="mx-auto max-w-3xl px-4 space-y-12">
-        <header className="space-y-3 border-b pb-8">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            {project.title}
-          </h1>
-          <p className="text-xl text-gray-600">{project.role}</p>
-        </header>
+       
 
         <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
           {project.description.map((text, i) => (
@@ -106,7 +106,7 @@ function WorkDetail() {
 
         {/* CTA */}
         <div className="rounded-xl bg-gray-50 p-8 text-center space-y-4">
-          <h3 className="text-xl font-semibold text-gray-900">
+          <h3 className="text-xl font-semibold text-gray-800">
             Want to work together?
           </h3>
           <p className="text-gray-600">

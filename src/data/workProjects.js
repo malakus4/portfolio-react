@@ -1,6 +1,6 @@
 export const workProjects = {
   emdeelink: {
-    title: "EMDEELINK LIMITED",
+    title: "EMDEELINK",
     role: "Frontend Developer (Contract)",
     screenshots: [
       "/work/emdeelink-1.webp",
