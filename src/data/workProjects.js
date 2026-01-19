@@ -6,6 +6,8 @@ export const workProjects = {
       "/work/emdeelink-1.webp",
       "/work/emdeelink-2.webp",
       "/work/emdeelink-3.webp",
+      "/work/emdeelink-4.webp",
+      "/work/emdeelink-5.webp",
     ],
     description: [
       "EMDEELINK is a production web platform where I contributed to frontend UI improvements and layout consistency.",
