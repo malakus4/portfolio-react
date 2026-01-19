@@ -37,9 +37,10 @@ function WorkDetail() {
         <div className="overflow-hidden rounded-xl border bg-white">
           {screenshots.length > 0 && (
             <img
-              src={screenshots[current]}
-              alt={`Project screenshot ${current + 1}`}
-              className="w-full object-cover transition-opacity duration-300"
+              src={screenshots[current].src}
+              key={current}
+              alt={screenshots[current].alt}
+              className="w-full object-cover transition-opacity duration-500 animate-in fade-in"
               loading="lazy"
             />
           )}
