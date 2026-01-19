@@ -31,7 +31,7 @@ function App() {
 
           {/* route for Work page */}
           <Route path='/work'  element={ <Work/> }/>
-          <Route path='/work/emdeelink'  element={ <WorkDetail/> }/>
+          <Route path='/work/:slug'  element={ <WorkDetail/> }/>
 
       </Route>
     
