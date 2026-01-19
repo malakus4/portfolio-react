@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx'
 import Thoughts from './pages/Thoughts.jsx'
 import Experiments from './pages/Experiments.jsx'
 import Work from './pages/Work.jsx'
+import WorkDetail from './pages/WorkDetail.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
 
           {/* route for Work page */}
           <Route path='/work'  element={ <Work/> }/>
-          <Route path='/work/:slug'  element={ <workDetail/> }/>
+          <Route path='/work/emdeelink'  element={ <WorkDetail/> }/>
 
       </Route>
     
