@@ -9,7 +9,7 @@ export const workData = [
   {
     slug: "portfolio",
     name: "Personal Portfolio",
-    logo: "/logo.svg",
+    logo: "/work/logo-svg-transp.svg",
     live: "https://malakus-portfolio.vercel.app",
     tech: ["React", "Vite", "Tailwind CSS"],
   },
