@@ -18,9 +18,9 @@ function Nav() {
 
      
         {/* Logo / Brand */}
-        <NavLink to="/" end className={linkClass}>
-          <span className="font-bold tracking-tight">
-            malakus <span>&gt;</span>
+        <NavLink to="/">
+          <span className="font-bold tracking-tight inline-flex items-baseline gap-1">
+            malakus <span className="leading-none self ">&gt;</span>
           </span>
         </NavLink>
 
