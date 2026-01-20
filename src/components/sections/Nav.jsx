@@ -30,8 +30,8 @@ function Nav() {
             Portfolio
           </NavLink>
 
-          <NavLink to="/experiments" className={linkClass}>
-            Experiments
+          <NavLink to="/about" className={linkClass}>
+            About
           </NavLink>
 
           <NavLink to="/work" className={linkClass}>

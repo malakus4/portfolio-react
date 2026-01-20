@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Experiments() {
+function About() {
 
   const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -15,8 +15,8 @@ function Experiments() {
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Experiments",
-      "item": "https://malakus-portfolio.vercel.app/experiments"
+      "name": "About",
+      "item": "https://malakus-portfolio.vercel.app/about"
     }
   ]
 };
@@ -29,8 +29,8 @@ function Experiments() {
 
        <div className='container-page py-4'>
         
-        <h2>/Experiments</h2>
-        <p>This is page is for Experimennts</p>
+        <h2>/About</h2>
+        <p>This page is for About</p>
         
         </div>
 
@@ -38,4 +38,4 @@ function Experiments() {
   )
 }
 
-export default Experiments
+export default About
