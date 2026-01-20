@@ -8,7 +8,7 @@ import FooterConnectCard from './FooterConnectCard'
 function Footer() {
   return (
 
-    <footer className="bg-base-200 p-8">
+    <footer className="bg-base-200 container-page">
 
       {/* Footer 4 coloums */}
       <div className=" py-8">
@@ -16,7 +16,7 @@ function Footer() {
         
 
           {/* About + Links */}
-          <div className="grid gap-8 lg:grid-cols-4">
+          <div className="grid gap-8 lg:grid-cols-2">
             
             
             
@@ -25,8 +25,8 @@ function Footer() {
             <FooterLinks/>   
             
       
-            <FooterContactCard/>
-            <FooterConnectCard/>            
+            {/* <FooterContactCard/> */}
+            {/* <FooterConnectCard/>             */}
           </div>
         </div>      
 
