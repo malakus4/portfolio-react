@@ -26,8 +26,8 @@ function Nav() {
 
         {/* Navigation Links */}
         <ul className="flex gap-3 sm:gap-5 lg:gap-8">
-          <NavLink to="/thoughts" end className={linkClass}>
-            Thoughts
+          <NavLink to="/" end className={linkClass}>
+            Portfolio
           </NavLink>
 
           <NavLink to="/experiments" className={linkClass}>

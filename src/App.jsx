@@ -2,7 +2,6 @@
 import { Route, Routes } from 'react-router-dom'
 import MainLayout from './layouts/MainLayout.jsx'
 import Home from './pages/Home.jsx'
-import Thoughts from './pages/Thoughts.jsx'
 import Experiments from './pages/Experiments.jsx'
 import Work from './pages/Work.jsx'
 import WorkDetail from './pages/WorkDetail.jsx'
@@ -21,9 +20,10 @@ function App() {
 
           <Route path='/'  element={ <Home/> }/>
 
-          {/* route for Thoughts page */}
-          <Route path='/thoughts'   element={ <Thoughts/> }/>
-
+          {/* route for Portfolio page 
+            same as Home page
+          */}
+          
 
           {/* route for Experiments page */}
           <Route path='/experiments'  element={ <Experiments/> }/>
