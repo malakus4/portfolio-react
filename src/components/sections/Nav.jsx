@@ -18,20 +18,20 @@ function Nav() {
 
      
         {/* Logo / Brand */}
-        <NavLink to="/" end className={linkClass}>
-          <span className="font-bold tracking-tight">
-            malakus <span>&gt;</span>
+        <NavLink to="/">
+          <span className="font-bold tracking-tight inline-flex items-baseline gap-1">
+            malakus <span className="leading-none self ">&gt;</span>
           </span>
         </NavLink>
 
         {/* Navigation Links */}
         <ul className="flex gap-3 sm:gap-5 lg:gap-8">
-          <NavLink to="/thoughts" end className={linkClass}>
-            Thoughts
+          <NavLink to="/" end className={linkClass}>
+            Portfolio
           </NavLink>
 
-          <NavLink to="/experiments" className={linkClass}>
-            Experiments
+          <NavLink to="/about" className={linkClass}>
+            About
           </NavLink>
 
           <NavLink to="/work" className={linkClass}>
