@@ -8,27 +8,26 @@ import FooterConnectCard from './FooterConnectCard'
 function Footer() {
   return (
 
-    <footer className="bg-base-200 container-page">
+    <footer className="bg-base-200 container-page py-16">
 
-      {/* Footer 4 coloums */}
-      <div className=" py-8">
+      
 
         
 
           {/* About + Links */}
-          <div className="grid gap-8 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-8 pb-8 lg:grid-cols-3">       
             
-            
-            
-            
-            <FooterAbout/>
-            <FooterLinks/>   
+            <div className="col-span-2">
+              <FooterAbout/>
+            </div>
+
+              <FooterLinks/>   
             
       
             {/* <FooterContactCard/> */}
             {/* <FooterConnectCard/>             */}
           </div>
-        </div>      
+        
 
       <FooterCopyright/>
     </footer>

@@ -3,17 +3,17 @@ import profileImg from "/profile-74.webp";
 function FooterAbout() {
   return (
     <div className="">
-      <h3 className="footer-title">About</h3>
+      <h3 className="footer-title">   </h3>
 
       <div className="flex items-start gap-3">
         <img
           src={profileImg}
           alt="Malak Udom"
-          width="80"
-          height="80"
+          width="100"
+          height="90"
           loading="lazy"
           decoding="async"
-          className="mt-1 rounded-full object-cover shadow-sm"
+          className="mt-1 rounded-md object-cover shadow-sm"
         />
 
         <div className="space-y-2">
@@ -23,10 +23,7 @@ function FooterAbout() {
             and Tailwind CSS.
           </p>
 
-          <p className="max-w-md footer-text">
-            I enjoy turning abstract problems into well-structured,
-            user-friendly solutions.
-          </p>
+          
         </div>
       </div>
     </div>
