@@ -23,15 +23,14 @@ function App() {
           {/* route for Portfolio page 
             same as Home page
           */}
-          
-
-          {/* route for About page */}
-          <Route path='/about'  element={ <About/> }/>
-
-
+                   
           {/* route for Work page */}
           <Route path='/work'  element={ <Work/> }/>
           <Route path='/work/:slug'  element={ <WorkDetail/> }/>
+          
+           {/* route for About page */}
+          <Route path='/about'  element={ <About/> }/>
+
 
       </Route>
     
