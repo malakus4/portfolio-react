@@ -1,4 +1,4 @@
-import profileImg from "/profile-74.webp";
+import profileImg from "/malak-udom-frontend-developer.webp";
 
 function FooterAbout() {
   return (
@@ -9,7 +9,7 @@ function FooterAbout() {
       <div className="block"> 
         <img
           src={profileImg}
-          alt="Malak Udom, Frontend Developer"
+          alt="Malak Udom - Frontend Developer Portfolio"
           loading="lazy"
           decoding="async"
           className="
