@@ -10,24 +10,13 @@ function Footer() {
 
     <footer className="bg-base-200 container-page py-16">
 
-      
-
-        
-
-          {/* About + Links */}
-          <div className="grid grid-cols-1 gap-8 pb-8 lg:grid-cols-3">       
-            
-            <div className="col-span-2">
+      {/* About + Links */}
+      <div className=" max-w-5xl mx-auto px-4 py-12 grid gap-10 lg:grid-cols-3">            
+            <div className="col-span-1 lg:col-span-2">
               <FooterAbout/>
             </div>
-
               <FooterLinks/>   
-            
-      
-            {/* <FooterContactCard/> */}
-            {/* <FooterConnectCard/>             */}
-          </div>
-        
+          </div>        
 
       <FooterCopyright/>
     </footer>

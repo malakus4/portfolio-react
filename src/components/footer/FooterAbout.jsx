@@ -2,27 +2,31 @@ import profileImg from "/profile-74.webp";
 
 function FooterAbout() {
   return (
-    <div>
+    <div >
       <h3 className="footer-title mb-4">About</h3>
 
-      <div className="flex items-start gap-4">
+     
+      <div className="block"> 
         <img
           src={profileImg}
           alt="Malak Udom, Frontend Developer"
           loading="lazy"
           decoding="async"
           className="
-            w-12 h-12 sm:w-14 sm:h-14
+            float-left mr-4 sm:mr-10
+            mb-2
+            w-16 h-16 sm:w-20 sm:h-20
             rounded-full object-cover
-            shadow-sm flex-shrink-0
+            shadow-sm
           "
         />
 
         <div className="space-y-3">
-          <p className="footer-text max-w-md">
+          <p className="footer-text max-w-lg">
             Frontend Developer specializing in scalable React applications.
-            I build clean, accessible user interfaces and help teams ship reliable features faster.
+            
           </p>
+          <p className="footer-text max-w-lg">I build clean, accessible user interfaces and help teams ship reliable features faster.</p>
 
           <address className="not-italic space-y-1 text-sm text-gray-700">
             <p>
@@ -45,6 +49,8 @@ function FooterAbout() {
             </p>
           </address>
         </div>
+        
+        <div className="clear-both"></div>
       </div>
     </div>
   );
