@@ -69,46 +69,49 @@
     <meta name="twitter:description" content="Frontend developer specializing in React and Tailwind CSS." />
     <meta name="twitter:image" content="https://malakus-portfolio.vercel.app/malak-udom-portfolio-preview.png" /> 
 
-    <!-- JSON-LD Person Schema -->
-     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Malak Udom",
-  "jobTitle": "Frontend Developer (Contract)",
-  "url": "https://malakus-portfolio.vercel.app",
-  "image": "https://malakus-portfolio.vercel.app/malak-udom-frontend-developer.webp",
-  "sameAs": [
-    "https://github.com/malakus4",
-    "https://www.linkedin.com/in/malakus"
-  ],
-  "knowsAbout": [
-    "Frontend Development",
-    "React",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "Responsive Design",
-    "Web Performance",
-    "UI Engineering"
-  ],
-  "worksFor": {
-    "@type": "Organization",
-    "name": "EMDEELINK LIMITED"
-  }
-}
-</script>
-
-<!-- Website Schema -->
+    <!-- Combined Person + Website Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Malak Udom Portfolio",
-  "alternateName": "Malak Udom",
-  "url": "https://malakus-portfolio.vercel.app/",
-  
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://malakus-portfolio.vercel.app/#person",
+      "name": "Malak Udom",
+      "jobTitle": "Frontend Developer (Contract)",
+      "url": "https://malakus-portfolio.vercel.app/",
+      "image": "https://malakus-portfolio.vercel.app/malak-udom-frontend-developer.webp",
+      "sameAs": [
+        "https://github.com/malakus4",
+        "https://www.linkedin.com/in/malakus"
+      ],
+      "knowsAbout": [
+        "Frontend Development",
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Responsive Design",
+        "Web Performance",
+        "UI Engineering"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "EMDEELINK LIMITED"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://malakus-portfolio.vercel.app/#website",
+      "url": "https://malakus-portfolio.vercel.app/",
+      "name": "Malak Udom Portfolio",
+      "alternateName": "Malak Udom",
+      "publisher": {
+        "@id": "https://malakus-portfolio.vercel.app/#person"
+      }
+    }
+  ]
 }
 </script>
 
