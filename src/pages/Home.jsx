@@ -1,4 +1,3 @@
-
 import Hero from '../components/sections/Hero.jsx';
 import Skills from '../components/sections/Skills.jsx';
 import FeaturedWork from '../components/sections/FeaturedWork.jsx';
@@ -9,8 +8,6 @@ function Home() {
       <Hero />
       <Skills />
       <FeaturedWork/>
-      {/* <Experiment/> */}
-      {/* <ThoughtSection /> */}
     </div>
   )
 }
