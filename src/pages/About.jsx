@@ -119,7 +119,7 @@ function About() {
               I'm open to remote roles, contract engagements, and
               long-term opportunities.
               <a
-                href="/contact"
+                href="#"
                 className="ml-2 font-medium text-primary hover:underline"
               >
                 Let's connect →
