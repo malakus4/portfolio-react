@@ -14,7 +14,7 @@ function FooterAbout() {
           decoding="async"
           className="
             float-left mr-4 sm:mr-10
-            mb-2
+            my-2
             w-16 h-16 sm:w-20 sm:h-20
             rounded-full object-cover
             shadow-sm
