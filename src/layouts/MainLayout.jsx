@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom'
 function MainLayout() {
   return (
     <>
-        <Header/>
+        {/* <Header/> */}
         <Nav />
 
         {/* Page contents renders here */}   
