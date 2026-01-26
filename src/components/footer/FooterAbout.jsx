@@ -23,7 +23,7 @@ function FooterAbout() {
 
         <div className="space-y-3">
           <p className="footer-text max-w-lg">
-            Frontend Developer specializing in scalable React applications.
+            I'm a Frontend Developer based in Abuja, Nigeria.
             
           </p>
           <p className="footer-text max-w-lg">I build clean, accessible user interfaces and help teams ship reliable features faster.</p>
