@@ -1,8 +1,17 @@
-import React from 'react'
+import { usePageMeta } from "../seo/usePageMeta";
+
 import WorkCard from "../components/work/WorkCard";
 import { workData } from "../components/work/workData";
 
 function Work() {
+
+    usePageMeta({
+      title: "Work | Malak Udom - Frontend Developer",
+      description:
+        "Selected frontend projects and production work built with React and Tailwind CSS.",
+      canonical: "https://malakus-portfolio.vercel.app/work",
+    });
+
 
   const breadcrumbSchema = {
   "@context": "https://schema.org",
