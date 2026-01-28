@@ -1,4 +1,4 @@
-import { usePageMeta } from "../seo/usePageMeta";
+import { usePageMeta } from "../seo/usePageMeta.js";
 import Hero from '../components/sections/Hero.jsx';
 import Skills from '../components/sections/Skills.jsx';
 import FeaturedWork from '../components/sections/FeaturedWork.jsx';
