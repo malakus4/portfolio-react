@@ -23,14 +23,17 @@ function Home() {
 };
 
   return (
-    <div className='container-page  '>
-      <script type="application/ld+json">
+    <>
+     <script type="application/ld+json">
        {JSON.stringify(websiteSchema)}
       </script>
+
+    <div className='container-page  '>
       <Hero />
       <Skills />
       <FeaturedWork/>
     </div>
+    </>
   )
 }
 
