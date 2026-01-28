@@ -1,6 +1,13 @@
-import React from "react";
+import { usePageMeta } from "../seo/usePageMeta";
 
 function About() {
+    usePageMeta({
+    title: "About | Malak Udom - Frontend Developer",
+    description:
+      "Frontend developer focused on clean UI, performance, and maintainable React applications.",
+    canonical: "https://malakus-portfolio.vercel.app/about",
+  });
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
