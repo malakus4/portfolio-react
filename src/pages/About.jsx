@@ -125,12 +125,12 @@ function About() {
             <p className="text-gray-700">
               I'm open to remote roles, contract engagements, and
               long-term opportunities.
-              <a
+              {/* <a 
                 href="#"
                 className="ml-2 font-medium text-primary hover:underline"
               >
                 Let's connect →
-              </a>
+              </a>    */} 
             </p>
           </footer>
 
