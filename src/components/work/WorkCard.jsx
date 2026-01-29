@@ -46,6 +46,7 @@ function WorkCard({ project }) {
           {project.name}
         </h3>
 
+        {/* 
         <a
           href={project.live}
           target="_blank"
@@ -54,7 +55,7 @@ function WorkCard({ project }) {
           className="inline-block text-sm text-blue-700 hover:underline"
         >
           View Live →
-        </a>
+        </a>  */}
 
         <div className="flex flex-wrap gap-2 text-xs text-gray-600">
           {project.tech.map((item) => (
