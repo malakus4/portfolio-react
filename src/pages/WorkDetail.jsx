@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useParams, Navigate } from "react-router-dom";
 import { workProjects } from "../data/workProjects";
 
@@ -24,6 +24,19 @@ function WorkDetail() {
   const nextSlide = () => {
     setCurrent(current === screenshots.length - 1 ? 0 : current + 1);
   };
+
+  useEffect(() => {
+  if (screenshots.length <= 1) return;
+
+  const interval = setInterval(() => {
+    setCurrent((prev) =>
+      prev === screenshots.length - 1 ? 0 : prev + 1
+    );
+  }, 7000); // 7 seconds slides
+
+  return () => clearInterval(interval);
+}, [screenshots.length]);
+
 
   return (
     <section className="cont space-y-24 py-16">
