@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useParams, Navigate } from "react-router-dom";
 import { workProjects } from "../data/workProjects";
 
@@ -25,6 +25,21 @@ function WorkDetail() {
     setCurrent(current === screenshots.length - 1 ? 0 : current + 1);
   };
 
+  const [isPaused, setIsPaused] = useState(false);
+
+  useEffect(() => {
+  if (screenshots.length <= 1 || isPaused) return;
+
+  const interval = setInterval(() => {
+    setCurrent((prev) =>
+      prev === screenshots.length - 1 ? 0 : prev + 1
+    );
+  }, 7000); // 7 seconds slides
+
+  return () => clearInterval(interval);
+}, [screenshots.length, isPaused]);
+
+
   return (
     <section className="cont space-y-24 py-16">
       
@@ -33,7 +48,10 @@ function WorkDetail() {
           </h1>
 
       {/* Slider */}
-      <div className="relative max-w-5xl mx-auto px-4">
+      <div className="relative max-w-5xl mx-auto px-4"
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+      >
         <div className="overflow-hidden rounded-xl border bg-white">
           {screenshots.length > 0 && (
             <img
