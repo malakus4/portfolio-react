@@ -25,8 +25,10 @@ function WorkDetail() {
     setCurrent(current === screenshots.length - 1 ? 0 : current + 1);
   };
 
+  const [isPaused, setIsPaused] = useState(false);
+
   useEffect(() => {
-  if (screenshots.length <= 1) return;
+  if (screenshots.length <= 1 || isPaused) return;
 
   const interval = setInterval(() => {
     setCurrent((prev) =>
@@ -35,7 +37,7 @@ function WorkDetail() {
   }, 7000); // 7 seconds slides
 
   return () => clearInterval(interval);
-}, [screenshots.length]);
+}, [screenshots.length, isPaused]);
 
 
   return (
@@ -46,7 +48,10 @@ function WorkDetail() {
           </h1>
 
       {/* Slider */}
-      <div className="relative max-w-5xl mx-auto px-4">
+      <div className="relative max-w-5xl mx-auto px-4"
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+      >
         <div className="overflow-hidden rounded-xl border bg-white">
           {screenshots.length > 0 && (
             <img
