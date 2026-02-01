@@ -1,13 +1,13 @@
 export const workData = [
   {
-    slug: "emdeelink",
+    slug: "/work/emdeelink",
     name: "EMDEELINK Limited",
     logo: "/work/emdeelink-logo-svg.svg",
     live: "https://emdeelink.com",
     tech: ["React", "Tailwind CSS", "JavaScript"],
   },
   {
-    slug: "portfolio",
+    slug: "/",
     name: "Personal Portfolio",
     logo: "/work/logo-svg-transp.svg",
     live: "https://malakus-portfolio.vercel.app",

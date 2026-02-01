@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 function WorkCard({ project }) {
   return (
     <Link
-      to={`/work/${project.slug}`}
+      // to={`/work/${project.slug}`}
+      to={`${project.slug}`}
       className="
         group block rounded-xl overflow-hidden
         transition-transform duration-300
