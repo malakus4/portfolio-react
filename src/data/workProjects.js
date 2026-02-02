@@ -42,24 +42,25 @@ export const workProjects = {
     ]
   },
 
-  portfolio: {
-    title: "Personal Portfolio",
+  // New Projects
+
+  project2: {
+    title: " ",
     role: "Frontend Developer",
     screenshots: [
-      "/work/portfolio-1.webp",
-      "/work/portfolio-2.webp",
+      "/work/project2-1.webp",
+      "/work/project2-2.webp",
     ],
     description: [
-      "This is my personal portfolio website built to showcase my frontend skills and projects.",
-      "I designed a clean layout system, reusable components, and implemented structured routing.",
-      "The project emphasizes performance, clarity, and scalability."
+      "This is new project description.",
+      "more details, problem solved",
+      "more details"
     ],
     techStack: [
       "React",
       "Tailwind CSS",
       "JavaScript",
-      "Vite",
-      "Vercel"
+      "Netlify"
     ]
   }
 };
