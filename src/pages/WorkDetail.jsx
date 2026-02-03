@@ -52,7 +52,7 @@ function WorkDetail() {
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
-        <div className="overflow-hidden rounded-xl border bg-white">
+        <div className="overflow-hidden rounded-xl border border-blue-100 bg-white">
           {screenshots.length > 0 && (
             <img
               src={screenshots[current].src}
@@ -107,7 +107,7 @@ function WorkDetail() {
         </div>
 
         {/* Tech stack card */}
-        <div className="rounded-xl border bg-white p-6 shadow-sm">
+        <div className="rounded-xl border border-blue-400 bg-white p-6 shadow-sm">
           <h3 className="mb-4 text-lg font-semibold text-gray-900">
             Tech Stack
           </h3>
