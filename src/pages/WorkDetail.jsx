@@ -41,7 +41,7 @@ function WorkDetail() {
 
 
   return (
-    <section className="cont space-y-24 py-16">
+    <section className="container-page space-y-24 py-16">
       
       <h1 className="text-center pb-14 text-xl  font-bold text-gray-900">
             {project.title}
@@ -137,15 +137,15 @@ function WorkDetail() {
               className="rounded-md bg-gray-900 px-6 py-3 text-sm font-medium text-white hover:bg-gray-800 transition-colors"
             >
               Contact Me
-            </a>
-            <Link
-              to="/work"
-              className="rounded-md border bg-white px-6 py-3 text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors"
-            >
-              Back to Work
-            </Link>
+            </a>                        
           </div>
         </div>
+        <Link
+              to="/work"
+              className="mx-auto block text-sm text-blue-700 hover:underline"
+            >
+              &larr; Back to Work
+            </Link>
       </div>
     </section>
   );
