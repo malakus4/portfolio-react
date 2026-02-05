@@ -3,7 +3,7 @@
 
 /* register font */
 :root {
-  --font-space: "Space Grotesk", sans-serif;
+  --font-space: 'Space Grotesk', system-ui, sans-serif;
 }
 
 * {
