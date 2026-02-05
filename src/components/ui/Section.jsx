@@ -1,8 +1,7 @@
 function Section({ children, className = "" }) {
   return (
-    <section
-      className={`py-20 border-t border-gray-200/60 ${className}`}
-    >
+    <section className={`py-14 sm:py-16 ${className}`}>
+
       {children}
     </section>
   );
