@@ -1,19 +1,26 @@
 @import "tailwindcss";
-@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/SpaceGrotesk-variable.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* register font */
 :root {
-  --font-space: 'Space Grotesk', system-ui, sans-serif;
+  --font-base: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-* {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 /* Universal body styles*/
 body {
-  font-family: var(--font-space);
-  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-family: var(--font-base);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
