@@ -8,8 +8,7 @@ function Nav() {
 
   return (
     <nav className="sticky top-0 bg-base/98 backdrop-blur z-10 border-b border-gray-200/60">
-      <div className="container-page flex justify-between items-center py-4 sm:py-5 lg:py-6 text-sm sm:text-base lg:text-lg">
-
+      <div className="mx-auto max-w-6xl flex justify-between items-center px-8 py-4 sm:px-10 lg:px-12 sm:py-5 lg:py-6 text-sm sm:text-base lg:text-lg">
         {/* Logo */}
         <NavLink to="/" aria-label="Go to homepage">
           <span className="font-bold tracking-tight inline-flex items-baseline gap-1">
