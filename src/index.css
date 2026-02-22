@@ -73,7 +73,7 @@ html {
   }  
 
   .section-title {
-    @apply text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900;
+    @apply font-mono text-xl lg:text-2xl tracking-tighter text-gray-700;
   }
 
   .section-subtitle {

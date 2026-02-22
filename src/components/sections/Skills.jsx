@@ -4,13 +4,12 @@ import SkillCard from "../ui/SkillCard";
 function Skills() {
   return (
     <Section>
-      <h2 className="section-title">
-        What I Do
-      </h2>
+      <h2 className="section-title">What I Do</h2>
+      <hr className="mt-4 mb-8 border-0 border-b border-gray-200/60"/>
 
       <p className="mt-4 max-w-2xl text-base sm:text-lg text-gray-700 leading-relaxed">
-        I focus on building frontend systems that are maintainable,
-        responsive, and production-ready.
+        I focus on building frontend systems that are maintainable, responsive,
+        and production-ready.
       </p>
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
