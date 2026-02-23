@@ -8,16 +8,16 @@ function Hero() {
           Frontend Developer
         </h1>
 
-        <p className="body-text mt-6 ">
+        <p className="body-text mt-6">
           I build clean, responsive, and scalable web interfaces using React,
           Vite, and Tailwind CSS.
         </p>
 
-        
-
         <div className="mt-8 flex flex-wrap gap-4">
-          <Link to="/work"
-            className="inline-flex items-center justify-center rounded-md bg-blue-800 text-white px-6 py-3 text-sm sm:text-base font-medium  hover:bg-blue-700 transition shadow-sm">
+          <Link
+            to="/work"
+            className="inline-flex items-center justify-center rounded-md bg-blue-800 text-white px-6 py-3 text-sm sm:text-base font-medium  hover:bg-blue-700 transition shadow-sm"
+          >
             View Work
           </Link>
 
@@ -31,8 +31,6 @@ function Hero() {
           </a>
         </div>
       </div>
-
-      
     </section>
   );
 }
