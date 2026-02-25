@@ -45,7 +45,7 @@ export default async function handler(req, res) {
     });
 
 
-    
+
     return res.status(200).json({
       success: true,
       message: "Email sent successfully",
@@ -55,7 +55,7 @@ export default async function handler(req, res) {
 
     return res.status(500).json({
       success: false,
-      error: "Something went wrong. Please try again later.",
+      error: error.message,
     });
   }
 }
