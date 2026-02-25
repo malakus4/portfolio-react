@@ -35,6 +35,7 @@ export default async function handler(req, res) {
       },
     });
 
+
     await transporter.sendMail({
       from: `"Portfolio Contact" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_USER,
@@ -43,6 +44,8 @@ export default async function handler(req, res) {
       text: message,
     });
 
+
+    
     return res.status(200).json({
       success: true,
       message: "Email sent successfully",
