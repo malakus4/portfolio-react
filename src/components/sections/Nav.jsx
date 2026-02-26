@@ -38,6 +38,17 @@ function Nav() {
               About
             </NavLink>
           </li>
+
+          <li>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                `${linkClass({ isActive })} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 rounded`
+              }
+            >
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
