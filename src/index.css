@@ -93,4 +93,92 @@ html {
   .footer-text {
     @apply text-base sm:text-lg text-gray-700 leading-relaxed;
   }
+
+  .contact-section {
+    padding: 5rem 1rem;
+    background: #f9fafb;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-container {
+    max-width: 600px;
+    width: 100%;
+    background: white;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  }
+
+  .contact-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .contact-subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 2rem;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    outline: none;
+  }
+
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+  }
+
+  button {
+    padding: 0.9rem;
+    border: none;
+    border-radius: 10px;
+    background: #6366f1;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  button:hover {
+    background: #4f46e5;
+    transform: translateY(-2px);
+  }
+
+  button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+
+  .status-message {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .status-message.success {
+    color: #16a34a;
+  }
+
+  .status-message.error {
+    color: #dc2626;
+  }
 }
