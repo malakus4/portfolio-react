@@ -18,19 +18,18 @@ function App() {
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
 
-          {/* route for Work page */}
+          {/* Route for Work page */}
           <Route path="/work" element={<Work />} />
           <Route path="/work/:slug" element={<WorkDetail />} />
 
-          {/* route for About page */}
+          {/* Route for About page */}
           <Route path="/about" element={<About />} />
 
-          {/* Contact page route */}
+          {/* Route for Contact page */}
           <Route path="/contact" element={<Contact />} />
         </Route>
 
-        {/* 404 page route */}
-
+          {/* Route for 404 page */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
